@@ -1,7 +1,5 @@
 package fr.zencraft.futurixel.portalredirect;
 
-import org.bukkit.Bukkit;
-import org.bukkit.command.CommandExecutor;
 import org.bukkit.entity.Player;
 import org.bukkit.event.EventHandler;
 import org.bukkit.event.EventPriority;
