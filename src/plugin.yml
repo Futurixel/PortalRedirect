@@ -1,0 +1,6 @@
+name: PortalRedirect
+main: fr.zencraft.futurixel.portalredirect.PortalRedirect
+version: 1.0
+author: Futurixel
+description: Global world tp for nether and end portal
+website: https://zencraft.fr
