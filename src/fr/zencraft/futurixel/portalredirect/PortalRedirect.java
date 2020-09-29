@@ -40,7 +40,7 @@ public class PortalRedirect extends JavaPlugin implements Listener {
             if (cause == PlayerTeleportEvent.TeleportCause.END_PORTAL) {
                 e.setCancelled(true);
                 if(configManager.getEndworld()!=null){
-                    p.teleportAsync(configManager.getNetherWorld().getSpawnLocation());
+                    p.teleportAsync(configManager.getEndworld().getSpawnLocation());
                 }
             }
         }
