@@ -42,11 +42,10 @@ public class ConfigManager {
             endworldname = "WORLD_THE_END";
         }
 
+        main.saveConfig();
 
         netherworld = Bukkit.getWorld(netherworldname);
         endworld = Bukkit.getWorld(endworldname);
-
-        System.out.println("[PORTAL REDIRECT] Chargement de la configuration terminée");
 
         System.out.println("[PORTAL REDIRECT] Chargement de la configuration terminée");
     }
